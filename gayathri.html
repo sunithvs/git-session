@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayathri - CS Student</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light gray background */
+            color: #333; /* Dark gray text */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure content takes full viewport height */
+        }
+
+        header {
+            background-color: #333; /* Darker gray header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            flex: 1; /* Allow main content to expand */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            border-radius: 8px; /* Rounded corners */
+        }
+
+        h1, h2, h3 {
+           color: #333; /* Dark gray headings*/
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /* Make image circular */
+            object-fit: cover; /* Prevent image distortion */
+            display: block; /* Ensure image is on its own line */
+            margin: 0 auto 20px; /* Center the image */
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skill {
+            background-color: #eee; /* Light gray skill background */
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Responsive design - make the site look good on smaller screens */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .skill {
+                flex: 1 1 45%; /* Two skills per row on smaller screens */
+                margin: 5px 2.5%; /* Adjust margins */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gayathri</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <img src="your_profile_picture.jpg" alt="Your Profile Picture" class="profile-image">  <h2>About Me</h2>
+            <p>
+                Hi, I'm Gayathri, a first-year B.Tech Computer Science student. I'm passionate about programming and eager to learn new technologies.  I'm currently proficient in Python, C, and Git, and I'm always excited to expand my skillset.  I'm looking forward to exploring various areas within computer science.
+            </p>
+
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">Python</div>
+                <div class="skill">C</div>
+                <div class="skill">Git</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                </div>
+
+            <h2>Contact</h2>
+            <p>Email: your_email@example.com</p>  <p>GitHub: <a href="your_github_profile">your_github_username</a></p> </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gayathri</p>
+    </footer>
+
+</body>
+</html>
